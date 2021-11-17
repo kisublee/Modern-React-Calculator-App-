@@ -29,10 +29,6 @@ const Display = (props) => {
     
 
 
-    const changeColor = () => {
-       
-    }
-
     return (
 
         <div className = "background">
@@ -59,7 +55,7 @@ const Display = (props) => {
                                 <button onClick = {props.handleUserInput} value = "6" className = "third-row">6</button>
                                 <button onClick = {props.subtract} className = "third-row">−</button>
 
-                                <button onClick = {props.handleUserInput} value = "1" className = "fourth-row"></button>
+                                <button onClick = {props.handleUserInput} value = "1" className = "fourth-row">1</button>
                                 <button onClick = {props.handleUserInput} value = "2" className = "fourth-row">2</button>
                                 <button onClick = {props.handleUserInput} value = "3" className = "fourth-row">3</button>
                                 <button onClick = {props.sum} className = "fourth-row" value = "sum" >+</button>

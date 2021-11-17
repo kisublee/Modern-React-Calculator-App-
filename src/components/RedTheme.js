@@ -29,10 +29,6 @@ const RedTheme = (props) => {
     
 
 
-    const changeColor = () => {
-       
-    }
-
     return (
 
         <div className = "background1">
