@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.background1 {
+    background-color: #b56868;
+    /* height: 100vh;
+    
+    width: 100vh; */
+    height: 812px;
+    width: 375px;
+}
+
+.calBody1 {
+    /* margin: 100px; */
+    margin: 0 20px 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: 8vh 20vh 12vh 12vh 12vh 12vh 12vh auto;
+}
+
+.topBar1 {
+    grid-column: span 4;
+    grid-row: 1;
+    background-color: #b56c6c;
+    margin: 15px;
+    padding-bottom: 50px;
+    box-shadow: 8px 8px 16px rgb(156, 92, 92), -8px -8px 16px rgba(185, 148, 148, 0.25);
+}
+
+.topBar1 p {
+    font-size: 3em;
+    float: right;
+    color: #b56868;
+    margin-right: 5px;
+    text-shadow: 3px 3px 6px rgb(145, 74, 74), -3px -3px 6px rgba(232, 209, 209, 0.2);
+}
+
+.mainDisplay1 {
+    grid-column: span 4;
+    grid-row: 2;
+    background-color: #b56c6c;
+    border-radius: 20px;
+    margin: 10px 0 15px 0;
+    text-align:right;
+    box-shadow: 8px 8px 16px rgb(156, 92, 92), -8px -8px 16px rgba(185, 148, 148, 0.25);
+}
+
+.mainDisplay1 p {
+    margin-top: 45px;
+    font-size: 4em;
+    margin-right: 20px;
+    color: #b56868;
+    text-shadow: 3px 3px 6px rgb(145, 74, 74), -3px -3px 6px rgba(232, 209, 209, 0.2);
+}
+
+.first-row1 {
+    grid-column: span 1;
+    grid-row: 3;
+    color: #b56868;
+    font-size:25px;
+}
+
+.second-row1 {
+    grid-column: span 1;
+    grid-row: 4;
+}
+
+.third-row1 {
+    grid-column: span 1;
+    grid-row: 5;
+}
+
+.fourth-row1 {
+    grid-column: span 1;
+    grid-row: 6;
+}
+
+.fifth-row1 {
+    grid-column: span 1;
+    grid-row: 7;
+}
+
+.background1 button{
+    background-color: #b56c6c;
+    margin-left: 10px;
+    height: 70%;
+    width: 75%;
+    border-radius: 50%;
+    border: 1px solid #b16a6a;
+    box-shadow: 8px 8px 16px rgb(156, 92, 92), -8px -8px 16px rgba(185, 148, 148, 0.25);
+    color: #b56868;
+    text-shadow: 3px 3px 6px rgb(145, 74, 74), -3px -3px 6px rgba(232, 209, 209, 0.2);
+    font-size: 2.5em;
+}
+
+.background1 button:hover {
+
+    background: linear-gradient(to right bottom, #9b5454, #be7272 65%, rgb(206, 178, 178));
+    box-shadow: 8px 8px 16px rgb(156, 92, 92), -8px -8px 16px rgba(185, 148, 148, 0.25);
+
+}
+
