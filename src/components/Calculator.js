@@ -304,10 +304,11 @@ class Calculator extends Component {
                 isRed: false,
             })
         }
-
+        if (this.state.isRed === false) {
         this.setState({
             isRed: true,
         })
+        }
     }
 
    
